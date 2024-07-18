@@ -1,2 +1,2 @@
 # python_re
-All my python programs
+All my Python programs
