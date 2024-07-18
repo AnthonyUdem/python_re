@@ -1,5 +1,5 @@
 def leap_year():
-    """"Calculate and displays if a year is leap year or not"""
+    """" Calculate and display if a year is a leap year or not a leap year """
 
     print("Welcome to Lonasctech leap year calculator.")
     year = int(input("What year do you want to check? "))
