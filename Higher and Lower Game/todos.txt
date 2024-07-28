@@ -1,0 +1,56 @@
+# ----------------------------- Method 2 ----------------------------------------#
+# todo-1  print the "higher lower" logo
+#     print the account_a comparison: compare A
+#     print the 'vs' logo
+#     print the account_b comparison: against B
+#     print - ask who has more followers? A or B
+# execution
+#   Tap into the game_data list, pick a random dictionary.
+#   Get the "name", the "description" and the "country" of that dictionary
+#   Display the "name", the "description" and the "country" of the dictionary in a single line.
+#   Repeat for comparison B and save both data in a variable holding 'A' and 'B'.
+#   ask for who has more followers#
+
+# todo-2  After their input, display the higher lower logo again
+#     if correct, print - you are right! print - current score: _
+#     elif wrong, print - sorry that's wrong. print - Final score: _ and end the program.
+# execution
+# Display the logo again.
+# Check  if their answer is correct and print yes and their current score.
+# Tap into the dictionary and get the follower_count, compare A and B and check with their answer.
+# create a score function to keep track of the score.
+# if they are wrong, quit the game. (Sorry, that's wrong. final score: _)
+# todo-3   Then make the previous B become A and print the 'vs' logo again
+#     print another comparison C from the list, make it B and ask again.
+#     continues this way until they lose.
+#     then, print - sorry that's wrong. print - Final score: _ and end the program.
+# execution
+# create a while loop and work it through
+
+
+
+# '''
+# FAQ: Why does choice B always become choice A in every round, even when A had more followers?
+#
+# Suppose you just started the game, and you are comparing the followers of A - Instagram (364k) to
+# B - Selena Gomez (174k). Instagram has more followers, so choice A is correct.
+# However, the subsequent comparison should be between Selena Gomez (the new A) and someone else.
+# The reason is that everything in our list has fewer followers than Instagram.
+# If we were to keep Instagram as part of the comparison (as choice A) then Instagram would stay
+# there for the rest of the game. This would be quite boring. By swapping choice B for A round,
+# we avoid a situation where the number of followers of choice A keeps going up over the course of the game.
+# Hope that makes sense :-)
+# '''
+
+# Generate a random account from the game data.
+# Format account data into printable format.
+# Ask user for a guess.
+# Check if user is correct.
+# Get follower count.
+# If Statement
+# Feedback.
+# Score Keeping.
+# Make game repeatable.
+# Make B become the next A.
+# Add art.
+# Clear screen between rounds.
